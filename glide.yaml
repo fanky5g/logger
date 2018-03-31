@@ -1,0 +1,5 @@
+package: gitlab.com/fanky5g/logger
+import:
+- package: github.com/sebest/logrusly
+- package: github.com/sirupsen/logrus
+  version: ^1.0.5

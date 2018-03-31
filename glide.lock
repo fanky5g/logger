@@ -1,0 +1,19 @@
+hash: eced6d80400b1df0965d77b81594cb5202e2947f85f0c386ab841f41186a12ce
+updated: 2018-03-31T12:40:30.290381909Z
+imports:
+- name: github.com/sebest/logrusly
+  version: 3235eccb8edc74d09a3e9727b13cce44644188f1
+- name: github.com/segmentio/go-loggly
+  version: eb91657e62b25699dd4e84d5562735440d4beace
+- name: github.com/sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: golang.org/x/crypto
+  version: 39efaea5da11abd5e2b90a435b1f338cdb94619c
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: af50095a40f9041b3b38960738837185c26e9419
+  subpackages:
+  - unix
+  - windows
+testImports: []
