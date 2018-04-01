@@ -24,6 +24,8 @@ var (
 	InfoLevel = logrus.InfoLevel
 	// DebugLevel var
 	DebugLevel = logrus.DebugLevel
+	// FatalLevel var
+	FatalLevel = logrus.FatalLevel
 )
 
 var (
