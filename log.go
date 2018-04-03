@@ -18,17 +18,6 @@ type Logger struct {
 }
 
 var (
-	// ErrorLevel var
-	ErrorLevel = logrus.ErrorLevel
-	// InfoLevel var
-	InfoLevel = logrus.InfoLevel
-	// DebugLevel var
-	DebugLevel = logrus.DebugLevel
-	// FatalLevel var
-	FatalLevel = logrus.FatalLevel
-)
-
-var (
 	log  *Logger
 	hook *logrusly.LogglyHook
 )
@@ -75,6 +64,12 @@ func (log *Logger) InfoMode() *Logger {
 // ErrorMode sets logger in error mode
 func (log *Logger) ErrorMode() *Logger {
 	log.SetLogLevel(logrus.ErrorLevel)
+	return log
+}
+
+// FatalMode sets logger in fatal mode
+func (log *Logger) FatalMode() *Logger {
+	log.SetLogLevel(logrus.FatalLevel)
 	return log
 }
 
