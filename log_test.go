@@ -13,7 +13,7 @@ func TestDebug(t *testing.T) {
 	defer os.Remove(file.Name())
 	req := []byte{}
 	res := []byte{}
-	logger.InfoMode().InfoWithFields("Paysenger Error", Fields{
+	logger.InfoMode().InfoWithFields("Error", Fields{
 		"req": string(req),
 		"res": string(res),
 	})
