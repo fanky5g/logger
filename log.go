@@ -13,7 +13,13 @@ import (
 type Fields logrus.Fields
 
 var (
-	log *logrus.Logger
+	log        *logrus.Logger
+	ErrorLevel = logrus.ErrorLevel
+	DebugLevel = logrus.DebugLevel
+	TraceLevel = logrus.FatalLevel
+	InfoLevel  = logrus.InfoLevel
+	PanicLevel = logrus.PanicLevel
+	WarnLevel  = logrus.WarnLevel
 )
 
 func init() {
