@@ -14,6 +14,11 @@ type Fields logrus.Fields
 
 var (
 	log *logrus.Logger
+	ErrorLevel = logrus.ErrorLevel
+	InfoLevel = logrus.InfoLevel
+	FatalLevel = logrus.FatalLevel
+	DebugLevel = logrus.DebugLevel
+	TraceLevel = logrus.TraceLevel
 )
 
 func init() {
