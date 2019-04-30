@@ -16,7 +16,7 @@ var (
 	log        *logrus.Logger
 	ErrorLevel = logrus.ErrorLevel
 	DebugLevel = logrus.DebugLevel
-	TraceLevel = logrus.FatalLevel
+	FatalLevel = logrus.FatalLevel
 	InfoLevel  = logrus.InfoLevel
 	PanicLevel = logrus.PanicLevel
 	WarnLevel  = logrus.WarnLevel
